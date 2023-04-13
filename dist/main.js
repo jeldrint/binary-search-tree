@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("const body = document.querySelector('body');\nbody.style.backgroundColor = 'rgb(33,33,33)';\n\n//# sourceURL=webpack://binary-search-tree/./src/index.js?");
+eval("const body = document.querySelector('body');\r\nbody.style.backgroundColor = 'rgb(33,33,33)';\r\n\r\nconst Node = () => {\r\n    let num = '';\r\n    let left = ''\r\n    let right = '';\r\n}\r\n\r\nconst Tree = (arr) => {\r\n\r\n}\r\n\r\nconst buildTree = (arr) => {\r\n    const newArr = [];\r\n    arr.sort((a,b)=>a-b)\r\n    .map((e)=>{\r\n        if (!newArr.includes(e)){\r\n            newArr.push(e)\r\n        }\r\n    })\r\n    return newArr\r\n}\r\n\r\nbuildTree([7,3,2,1,4,5,6]);\n\n//# sourceURL=webpack://binary-search-tree/./src/index.js?");
 
 /***/ })
 
